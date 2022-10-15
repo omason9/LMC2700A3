@@ -51,6 +51,7 @@ let changeWatched = (title) => {
         if (allMovies[i].title === title) {
             allMovies[i] = new Movie(allMovies[i].title, allMovies[i].rating, false);
             console.log("working");
+            console.log(allMovies[i]);
         }
     }
 }
