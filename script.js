@@ -9,6 +9,7 @@ class Movie {
     }
     
     changeHaveWatched() {
+        console.log("also working");
         if (this.haveWatched == true) {
             this.haveWatched = false;   
         } else {
