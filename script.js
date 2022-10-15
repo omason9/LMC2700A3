@@ -9,7 +9,7 @@ class Movie {
     }
     
     changeHaveWatched() {
-        if (haveWatched == true) {
+        if (this.haveWatched == true) {
             this.haveWatched = false;   
         } else {
             this.haveWatched = true;   
