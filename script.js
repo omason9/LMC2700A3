@@ -49,7 +49,7 @@ let highRatings = (rating) => {
 let changeWatched = (title) => {
     for (i = 0; i < allMovies.length; i = i + 1) {
         if (allMovies[i].title === title) {
-            allMovies[i].changeHaveWatched;
+            allMovies[i] = new Movie(allMovies[i].title, allMovies[i].rating, false);
             console.log("working");
         }
     }
