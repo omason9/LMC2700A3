@@ -19,7 +19,7 @@ class Movie {
 
 //add a movie OBJECT to the allMovies array
 let addMovie = (movie) => {
-    allMovies[allMovies.length - 1] = movie;
+    allMovies[allMovies.length] = movie;
 }
 
 //iterate through all elements of allMovies array
@@ -47,8 +47,9 @@ let highRatings = (rating) => {
 //Toggle the 'haveWatched' property of the specified movie 
 let changeWatched = (title) => {
     for (i = 0; i < allMovies.length; i = i + 1) {
-        if (allMovies[i].title == title) {
+        if (allMovies[i].title === title) {
             allMovies[i].changeHaveWatched;
+            console.log("working");
         }
     }
 }
